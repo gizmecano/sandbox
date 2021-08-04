@@ -9,5 +9,9 @@
   "files.exclude": {
     "**/desktop.ini": true
   },
-  "files.trimTrailingWhitespace": false
+  "files.trimTrailingWhitespace": false,
+  "[markdown]": {
+    "editor.wordWrap": "wordWrapColumn",
+    "editor.wordWrapColumn": 80,
+  }
 }
