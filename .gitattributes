@@ -1,0 +1,19 @@
+# Configuring Git to handle line endings
+# https://help.github.com/en/github/using-git/configuring-git-to-handle-line-endings
+
+# Set default behavior `core.autocrlf` set is not set
+* text=auto
+
+# Declare files normalized to native line endings on checkout
+*.git*        text
+*.json        text
+*.md          text
+.editorconfig text
+
+# Define files that are not added to archive files
+.editorconfig   export-ignore
+.gitattributes  export-ignore
+.gitignore      export-ignore
+
+# Define folders that are not added to archive files
+.vscode export-ignore
