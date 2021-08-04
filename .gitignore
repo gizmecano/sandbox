@@ -1,0 +1,5 @@
+# System files
+[Dd]esktop.ini
+
+# Development environment
+*.*-workspace
