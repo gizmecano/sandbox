@@ -14,6 +14,7 @@
     "editor.wordWrap": "wordWrapColumn",
     "editor.wordWrapColumn": 80,
   },
+  "git.enableCommitSigning": true,
   "githubIssues.queries": [
     {
       "label": "My Issues",
