@@ -1,0 +1,1 @@
+# Allow rebase merging
