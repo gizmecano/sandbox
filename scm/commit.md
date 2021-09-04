@@ -1,0 +1,1 @@
+# Allow merge commits
