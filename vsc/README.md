@@ -1,0 +1,1 @@
+A [snippet](https://kittygiraudel.com/snippets/vsc-lite/) of various settings which can be implement for _reducing visual noise and distractions_ has been posted by @KittyGiraudel (completed by a [thread](https://twitter.com/KittyGiraudel/status/1365237163105939457) with explanations _behind some ot the choices_).
