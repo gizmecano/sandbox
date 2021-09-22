@@ -8,6 +8,8 @@ This file is about enabled settings for configuration in the context of the [wor
 "extensions.ignoreRecommendations": true,
 ```
 
+## Workbench
+
 ```json
 "workbench.editor.decorations.badges": true,
 "workbench.editor.decorations.colors": true,
