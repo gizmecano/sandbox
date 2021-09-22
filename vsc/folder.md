@@ -31,6 +31,12 @@ This file deals with applied [settings to a specific folder](https://code.visual
 "git.enableCommitSigning": true,
 ```
 
+## Search
+
+```json
+"search.useIgnoreFiles": false,
+```
+
 ## Overridden settings
 
 ### Markdown

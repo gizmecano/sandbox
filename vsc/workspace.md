@@ -8,6 +8,13 @@ This file is about enabled settings for configuration in the context of the [wor
 "extensions.ignoreRecommendations": true,
 ```
 
+## Search
+
+```json
+"search.collapseResults": "alwaysCollapse",
+"search.showLineNumbers": true,
+```
+
 ## Workbench
 
 ```json
