@@ -25,6 +25,12 @@ This file deals with applied [settings to a specific folder](https://code.visual
 "files.trimTrailingWhitespace": true,
 ```
 
+## Git
+
+```json
+"git.enableCommitSigning": true,
+```
+
 ## Overridden settings
 
 ### Markdown
