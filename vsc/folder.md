@@ -24,3 +24,15 @@ This file deals with applied [settings to a specific folder](https://code.visual
 ```json
 "files.trimTrailingWhitespace": true,
 ```
+
+## Overridden settings
+
+### Markdown
+
+```json
+"[markdown]": {
+  "editor.wordWrap": "wordWrapColumn",
+  "editor.wordWrapColumn": 80,
+  "files.trimTrailingWhitespace": false
+},
+```
