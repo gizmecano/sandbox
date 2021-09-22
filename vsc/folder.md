@@ -12,3 +12,15 @@ This file deals with applied [settings to a specific folder](https://code.visual
 "editor.wordWrap": "wordWrapColumn",
 "editor.wordWrapColumn": 80,
 ```
+
+## Files
+
+```json
+"files.exclude": {
+  "**/desktop.ini": true
+},
+```
+
+```json
+"files.trimTrailingWhitespace": true,
+```
