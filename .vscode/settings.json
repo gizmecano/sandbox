@@ -1,5 +1,4 @@
 {
-  "editor.minimap.enabled": false,
   "editor.renderWhitespace": "all",
   "editor.rulers": [
     80
@@ -9,11 +8,7 @@
   "files.exclude": {
     "**/desktop.ini": true
   },
-  "files.trimTrailingWhitespace": false,
-  "[markdown]": {
-    "editor.wordWrap": "wordWrapColumn",
-    "editor.wordWrapColumn": 80,
-  },
+  "files.trimTrailingWhitespace": true,
   "git.enableCommitSigning": true,
   "githubIssues.queries": [
     {
@@ -38,5 +33,10 @@
       "label": "Created By Me",
       "query": "is:open author:${user}"
     }
-  ]
+  ],
+  "[markdown]": {
+    "editor.wordWrap": "wordWrapColumn",
+    "editor.wordWrapColumn": 80,
+    "files.trimTrailingWhitespace": false
+  }
 }
