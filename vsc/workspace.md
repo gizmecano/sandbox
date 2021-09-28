@@ -11,9 +11,9 @@ This file is about enabled settings for configuration in the context of the [wor
 ## Files
 
 ```json
-"files.associations": {
-  "*.dat": "plaintext",
-}
+  "files.associations": {
+    "*.dat": "plaintext",
+  }
 ```
 
 ## Search
