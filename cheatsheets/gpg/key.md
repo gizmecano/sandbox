@@ -1,9 +1,7 @@
-# Generate GPG key using terminal
+# Generate key
 
 ```bash
 $ gpg --armor --export <key ID>
-$ git config --global user.signingkey <key ID>
-$ git config --global commit.gpgsign true
 ```
 
 # Edit existing key passphrase
