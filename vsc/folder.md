@@ -5,6 +5,7 @@ This file deals with applied [settings to a specific folder](https://code.visual
 ## Editor
 
 ```json
+"editor.bracketPairColorization.enabled": true,
 "editor.renderWhitespace": "all",
 "editor.rulers": [
   80
