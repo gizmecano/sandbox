@@ -8,10 +8,21 @@ This file is about enabled settings for configuration in the context of the [wor
 "extensions.ignoreRecommendations": true,
 ```
 
+## Files
+
+```json
+"files.associations": {
+  "*.dat": "plaintext",
+}
+```
+
 ## Search
 
 ```json
 "search.collapseResults": "alwaysCollapse",
+"search.exclude": {
+    "**/vendor": true
+  }
 "search.showLineNumbers": true,
 ```
 
