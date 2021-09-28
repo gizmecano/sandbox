@@ -5,37 +5,37 @@ This file deals with applied [settings to a specific folder](https://code.visual
 ## Editor
 
 ```json
-"editor.bracketPairColorization.enabled": true,
-"editor.renderWhitespace": "all",
-"editor.rulers": [
-  80
-],
-"editor.wordWrap": "wordWrapColumn",
-"editor.wordWrapColumn": 80,
+  "editor.bracketPairColorization.enabled": true,
+  "editor.renderWhitespace": "all",
+  "editor.rulers": [
+    80
+  ],
+  "editor.wordWrap": "wordWrapColumn",
+  "editor.wordWrapColumn": 80,
 ```
 
 ## Files
 
 ```json
-"files.exclude": {
-  "**/desktop.ini": true
-},
+  "files.exclude": {
+    "**/desktop.ini": true
+  },
 ```
 
 ```json
-"files.trimTrailingWhitespace": true,
+  "files.trimTrailingWhitespace": true,
 ```
 
 ## Git
 
 ```json
-"git.enableCommitSigning": true,
+  "git.enableCommitSigning": true,
 ```
 
 ## Search
 
 ```json
-"search.useIgnoreFiles": false,
+  "search.useIgnoreFiles": false,
 ```
 
 ## Overridden settings
@@ -43,9 +43,9 @@ This file deals with applied [settings to a specific folder](https://code.visual
 ### Markdown
 
 ```json
-"[markdown]": {
-  "editor.wordWrap": "wordWrapColumn",
-  "editor.wordWrapColumn": 80,
-  "files.trimTrailingWhitespace": false
-},
+  "[markdown]": {
+    "editor.wordWrap": "wordWrapColumn",
+    "editor.wordWrapColumn": 80,
+    "files.trimTrailingWhitespace": false
+  },
 ```

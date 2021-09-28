@@ -5,7 +5,7 @@ This file is about enabled settings for configuration in the context of the [wor
 ## Extensions
 
 ```json
-"extensions.ignoreRecommendations": true,
+  "extensions.ignoreRecommendations": true,
 ```
 
 ## Files
@@ -13,22 +13,22 @@ This file is about enabled settings for configuration in the context of the [wor
 ```json
   "files.associations": {
     "*.dat": "plaintext",
-  }
+  },
 ```
 
 ## Search
 
 ```json
-"search.collapseResults": "alwaysCollapse",
-"search.exclude": {
-    "**/vendor": true
-  }
-"search.showLineNumbers": true,
+  "search.collapseResults": "alwaysCollapse",
+  "search.exclude": {
+  "**/vendor": true
+  },
+  "search.showLineNumbers": true,
 ```
 
 ## Workbench
 
 ```json
-"workbench.editor.decorations.badges": true,
-"workbench.editor.decorations.colors": true,
+  "workbench.editor.decorations.badges": true,
+  "workbench.editor.decorations.colors": true,
 ```

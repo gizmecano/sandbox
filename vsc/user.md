@@ -5,17 +5,17 @@ This file is devoted to [settings](https://code.visualstudio.com/docs/getstarted
 ## Editor
 
 ```json
-"editor.minimap.enabled": false,
+  "editor.minimap.enabled": false,
 ```
 
 ## Update
 
 ```json
-"update.showReleaseNotes": false,
+  "update.showReleaseNotes": false,
 ```
 
 ## Workbench
 
 ```json
-"workbench.startupEditor": "none",
+  "workbench.startupEditor": "none",
 ```
