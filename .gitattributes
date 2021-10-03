@@ -11,9 +11,11 @@
 .editorconfig text
 
 # Define files that are not added to archive files
-.editorconfig   export-ignore
-.gitattributes  export-ignore
-.gitignore      export-ignore
+.editorconfig       export-ignore
+.gitattributes      export-ignore
+.gitignore          export-ignore
+.markdownlint.jsonc export-ignore
+.prettierrc         export-ignore
 
 # Define folders that are not added to archive files
 .vscode export-ignore

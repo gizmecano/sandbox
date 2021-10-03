@@ -1,0 +1,8 @@
+{
+  // Default state for all other rules
+  "default": true,
+  // Nullify all possible settings for rule `MD013` concerning line length
+  "line-length": false,
+  // Spaces inside code span elements may be relevant in some cases
+  "MD038": false
+}
