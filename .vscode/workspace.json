@@ -1,9 +1,0 @@
-{
-  "settings": {
-    "githubPullRequests.remotes": [
-      "origin"
-    ],
-    "githubIssues.issueBranchTitle": "issue/${issueNumber}",
-    "githubIssues.useBranchForIssues": "prompt"
-  }
-}
