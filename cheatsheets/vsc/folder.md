@@ -6,6 +6,8 @@ This file deals with applied [settings to a specific folder](https://code.visual
 
 ```json
   "editor.bracketPairColorization.enabled": true,
+  "editor.guides.bracketPairs": "active",
+  "editor.guides.bracketPairsHorizontal": "active",
   "editor.renderWhitespace": "all",
   "editor.rulers": [
     80
