@@ -15,3 +15,9 @@ According to _Merge button_ section in _Settings_ panel:
 > Combine all commits from the head branch into a single commit in the base branch.
 
 **Squash and merge**: the commits from the branch `issue/${issueNumber}` will be combined into one commit on the base branch `draft`.
+
+## Allow rebase merging
+
+> Add all commits from the head branch onto the base branch individually.
+
+**Rebase and merge**: the commits from the branch `issue/${issueNumber}` will be rebased and added to the base branch `draft`.
