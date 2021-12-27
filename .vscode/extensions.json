@@ -3,6 +3,7 @@
     "davidanson.vscode-markdownlint",
     "editorconfig.editorconfig",
     "esbenp.prettier-vscode",
-    "github.vscode-pull-request-github"
+    "github.vscode-pull-request-github",
+    "redhat.vscode-xml"
   ]
 }
