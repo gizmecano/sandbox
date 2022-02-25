@@ -1,22 +1,22 @@
-# Manage signed tag
+# Handle git tags
 
-## Create signed tag
+## Create a signed tag
 
 ```bash
 # Create a signed tag:
 $ git tag -s <tag_name> -m 'Message about the tag'
-# Push the signed tag to remote:
+# Push a signed tag to remote:
 $ git push origin <tag_name>
 ```
 
-## Remove tag (locally and remotely)
+## Remove a tag
 
 ```bash
-# Delete local tag:
+# Delete a local tag:
 $ git tag -d <tag_name>
-# Delete remote tag:
+# Delete a remote tag:
 $ git push --delete origin <tag_name>
-# Delete remote tag (alternative method):
+# Delete a remote tag (alternative method):
 $ git push origin :refs/tags/<tag_name>
 ```
 
