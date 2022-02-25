@@ -4,20 +4,20 @@
 
 ```bash
 # Create a signed tag:
-$ git tag -s tagname -m 'Message about the tag'
+$ git tag -s <tag_name> -m 'Message about the tag'
 # Push the signed tag to remote:
-$ git push origin tagname
+$ git push origin <tag_name>
 ```
 
 ## Remove tag (locally and remotely)
 
 ```bash
 # Delete local tag:
-$ git tag -d tagname
+$ git tag -d <tag_name>
 # Delete remote tag:
-$ git push --delete origin tagname
+$ git push --delete origin <tag_name>
 # Delete remote tag (alternative method):
-$ git push origin :refs/tags/tagname
+$ git push origin :refs/tags/<tag_name>
 ```
 
 ## Create a branch for a specific tag
