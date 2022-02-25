@@ -7,9 +7,10 @@
 
 # Declare files normalized to native line endings on checkout
 *.git*        text
-*.json        text
+*.json*       text
 *.md          text
 .editorconfig text
+.prettier*    text
 
 # Define files that are not added to archive files
 .editorconfig       export-ignore
@@ -19,4 +20,4 @@
 .prettierrc         export-ignore
 
 # Define folders that are not added to archive files
-.vscode export-ignore
+.vscode       export-ignore
