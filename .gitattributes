@@ -1,5 +1,6 @@
 # Configuring Git to handle line endings
-# https://help.github.com/en/github/using-git/configuring-git-to-handle-line-endings
+# To avoid problems in your diffs, you can configure Git to properly handle line endings.
+# https://docs.github.com/en/get-started/getting-started-with-git/configuring-git-to-handle-line-endings
 
 # Set default behavior `core.autocrlf` set is not set
 * text=auto
