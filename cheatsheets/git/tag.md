@@ -39,3 +39,22 @@ $ git checkout tags/<tag_name>
 ```
 
 For reference, _cf._ [_Download a specific tag with Git_](https://stackoverflow.com/a/792027)
+
+## Change the date of a tag
+
+The procedure below aims to change the date of a specific tag (_e.g._ when sorting of these tags is not properly preserved after pushing to a remote repository such as GitHub). It partially repeats commands which were mentionned about [removing a tag](##Remove a tag).
+
+```bash
+# Checkout the commit associated with the tag:
+$ git checkout <tag_name>
+# Delete the local tag:
+$ git tag -d <tag_name>
+# Delete the remote tag:
+$ git push --delete origin <tag_name>
+# Create the revised tag with a date based from the head of the current checkout:
+$ GIT_COMMITTER_DATE="$(git show --format=%aD  | head -1)" git tag -a <tag_name> -m "Add retroactively a tag for version <tag_name>"
+# Push revised tags
+$ git push -taggs
+```
+
+For reference, _cf._ [_Change date of git tag (or GitHub Release based on it)_](https://stackoverflow.com/a/21741848)
