@@ -22,7 +22,7 @@ $ git push origin :refs/tags/<tag_name>
 
 ## Create a branch for a specific tag
 
-A helpful command for properly tracking specific releases of a project using git tags. [Reference](https://stackoverflow.com/a/792027/4094098)
+A helpful command for properly tracking specific releases of a project using git tags.
 
 ```bash
 # List all the tags:
@@ -37,3 +37,5 @@ Alternatively, it's possible to only checkout the tag, but the pointer will be o
 # Checkout a specific tag:
 $ git checkout tags/<tag_name>
 ```
+
+For reference, _cf._ [_Download a specific tag with Git_](https://stackoverflow.com/a/792027)
