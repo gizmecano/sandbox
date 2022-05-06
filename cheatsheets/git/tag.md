@@ -38,11 +38,11 @@ Alternatively, it's possible to only checkout the tag, but the pointer will be o
 $ git checkout tags/<tag_name>
 ```
 
-For reference, _cf._ [_Download a specific tag with Git_](https://stackoverflow.com/a/792027)
+For reference, _cf._ [_Download a specific tag with Git_](https://stackoverflow.com/a/792027) by @besen [CC BY-SA 2.5](https://creativecommons.org/licenses/by-sa/2.5/)
 
 ## Change the date of a tag
 
-The procedure below aims to change the date of a specific tag (_e.g._ when sorting of these tags is not properly preserved after pushing to a remote repository such as GitHub). It partially repeats commands which were mentionned about [removing a tag](##Remove a tag).
+The procedure below aims to change the date of a specific tag (_e.g._ when sorting of these tags is not properly preserved after pushing to a remote repository such as GitHub). It partially repeats commands which were mentionned about [removing a tag](##remove-a-tag).
 
 ```bash
 # Checkout the commit associated with the tag:
@@ -57,4 +57,4 @@ $ GIT_COMMITTER_DATE="$(git show --format=%aD  | head -1)" git tag -a <tag_name>
 $ git push -taggs
 ```
 
-For reference, _cf._ [_Change date of git tag (or GitHub Release based on it)_](https://stackoverflow.com/a/21741848)
+For reference, _cf._ [_Change date of git tag (or GitHub Release based on it)_](https://stackoverflow.com/a/21741848) by @Phrogz [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0/)
