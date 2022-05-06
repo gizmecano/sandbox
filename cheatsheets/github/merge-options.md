@@ -4,12 +4,11 @@ According to _Merge button_ section in _Settings_ panel:
 
 > When merging pull requests, you can allow any combination of merge commits, squashing, or rebasing. At least one option must be enabled. If you have linear history requirement enabled on any protected branch, you must enable squashing or rebasing.
 
-The three available options listed below have been tested during #7
-respectively in:
+The three available options listed below have been tested during the [second phase](https://github.com/gizmecano/sandbox/issues/7):
 
-- #8 for _Merge commit_
-- #9 for _Squash and merge_
-- #10 for _Rebase and merge_
+- [_Merge commit_](https://github.com/gizmecano/sandbox/pull/8)
+- [_Squash and merge_](https://github.com/gizmecano/sandbox/pull/9)
+- [_Rebase and merge_](https://github.com/gizmecano/sandbox/pull/10))
 
 ## Allow merge commits
 
