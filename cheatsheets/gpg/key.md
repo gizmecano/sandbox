@@ -18,4 +18,4 @@ $ gpg --edit-key <key ID>
 $ gpg> passwd
 ```
 
-For reference, _cf._ [_gpg remove passphrase_](https://superuser.com/a/1488214) by @frakman1 [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/)
+For reference, _cf._ [_gpg remove passphrase_](https://superuser.com/a/1488214) by [Frak](https://github.com/frakman1) [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/)
