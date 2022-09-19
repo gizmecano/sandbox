@@ -57,4 +57,4 @@ $ GIT_COMMITTER_DATE="$(git show --format=%aD  | head -1)" git tag -a <tag_name>
 $ git push -taggs
 ```
 
-For reference, _cf._ [_Change date of git tag (or GitHub Release based on it)_](https://stackoverflow.com/a/21741848) by @Phrogz [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0/)
+For reference, _cf._ [_Change date of git tag (or GitHub Release based on it)_](https://stackoverflow.com/a/21741848) by [Gavin Kistner](https://github.com/Phrogz) [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0/)
