@@ -14,4 +14,4 @@ The `origin/HEAD` branch can be remove using:
 $ git remote set-head origin -d
 ```
 
-For reference, _cf._ [_Why is "origin/HEAD" shown when running "git branch -r"?_](https://stackoverflow.com/a/6838756) by @cdunn2001 [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0/)
+For reference, _cf._ [_Why is "origin/HEAD" shown when running "git branch -r"?_](https://stackoverflow.com/a/6838756) by [Christopher Dunn](https://github.com/cdunn2001) [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0/)
