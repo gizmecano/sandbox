@@ -38,7 +38,7 @@ Alternatively, it's possible to only checkout the tag, but the pointer will be o
 $ git checkout tags/<tag_name>
 ```
 
-For reference, _cf._ [_Download a specific tag with Git_](https://stackoverflow.com/a/792027) by @besen [CC BY-SA 2.5](https://creativecommons.org/licenses/by-sa/2.5/)
+For reference, _cf._ [_Download a specific tag with Git_](https://stackoverflow.com/a/792027) by [Renato Besen](https://github.com/besen/) [CC BY-SA 2.5](https://creativecommons.org/licenses/by-sa/2.5/)
 
 ## Change the date of a tag
 
