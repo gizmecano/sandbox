@@ -42,7 +42,7 @@ For reference, _cf._ [_Download a specific tag with Git_](https://stackoverflow.
 
 ## Change the date of a tag
 
-The procedure below aims to change the date of a specific tag (_e.g._ when sorting of these tags is not properly preserved after pushing to a remote repository such as GitHub). It partially repeats commands which were mentionned about [removing a tag](##remove-a-tag).
+The procedure below aims to change the date of a specific tag (_e.g._ when sorting of these tags is not properly preserved after pushing to a remote repository such as GitHub). It partially repeats commands which were mentionned about [removing a tag](#remove-a-tag).
 
 ```bash
 # Checkout the commit associated with the tag:
