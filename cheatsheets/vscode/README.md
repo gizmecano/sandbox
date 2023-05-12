@@ -4,4 +4,4 @@ Official specifications concerning all native default settings and their possibl
 
 Other complementary references may complete this primary source, such as:
 
-1. A [snippet](https://kittygiraudel.com/snippets/vsc-lite/) of various settings which can be implement for _reducing visual noise and distractions_ has been posted by @KittyGiraudel under [MIT License](https://github.com/KittyGiraudel/site/blob/main/LICENSE) (completed by a [thread](https://twitter.com/KittyGiraudel/status/1365237163105939457) with explanations _behind some ot the choices_).
+1. A [snippet](https://kittygiraudel.com/snippets/vsc-lite/) of various settings which can be implement for _reducing visual noise and distractions_ has been posted by [Kitty Giraudel](https://github.com/KittyGiraudel) under [MIT License](https://github.com/KittyGiraudel/site/blob/main/LICENSE) (completed by a [thread](https://twitter.com/KittyGiraudel/status/1365237163105939457) with explanations _behind some ot the choices_).
