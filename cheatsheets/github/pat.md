@@ -10,11 +10,10 @@ In the project settings, change the `origin` path value by adding the personal a
 
 ## Configure a PAT in Visual Studio Code
 
-In the terminal panel of the project directory, type and run this specific command to set a remote access via a token
+Set a GitHub a remote personal access token to Visual Studio Code (prompt this command in the terminal panel of the project directory):
 
 ```bash
-# Set a GitHub personal access token to Visual Studio Code:
-$ git remote set-url origin https://<username>:ghp_xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx@github.com/<username>/<repository>.git
+git remote set-url origin https://<username>:ghp_xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx@github.com/<username>/<repository>.git
 ```
 
-For reference, _cf._ [_How to add a GitHub personal access token to Visual Studio Code_](https://stackoverflow.com/a/66830126) by [Giddy Naya](https://github.com/GiddyNaya) [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0/)
+For reference, _cf._ [_How to add a GitHub personal access token to Visual Studio Code_](https://stackoverflow.com/a/66830126) by [Giddy Naya](https://github.com/GiddyNaya) [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/)
